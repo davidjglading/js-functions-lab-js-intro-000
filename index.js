@@ -6,6 +6,7 @@ function happyHolidays()  {
 function happyHolidaysTo(name)  {
   var name = "everyone"
   return(`Happy holidays, ${name}!`)
+  expect(Happy holidays, everyone!).toEqual(Happy holidays, you!)
 }
 
 function happyCustomHolidayTo(holiday, name)  {
