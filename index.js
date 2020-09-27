@@ -4,16 +4,14 @@ function happyHolidays()  {
 }
 
 function happyHolidaysTo(name)  {
-  var name1 = "everyone"
-  var name2 = "you"
-  return(`Happy holidays, ${name1}!`)
-  return(`Happy holidays, ${name2}!`)
+  var name = "everyone"
+  return(`Happy holidays, ${name}!`)
 }
 
 function happyCustomHolidayTo(holiday, name)  {
   var holiday = "Independence Day"
   var name = "you"
-  return "Happy Independence Day, you"
+  return "Happy Independence Day, you!"
 }
 
 function holidayCountdown(holiday, days)  {
