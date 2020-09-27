@@ -12,9 +12,13 @@ function happyHolidaysTo(name)  {
 }
 
 function happyCustomHolidayTo(holiday, name)  {
-  var holiday = "Independence Day"
-  var name = "you"
-  return "Happy Independence Day, you!"
+  var holiday1 = "Independence Day"
+  var holiday2 = "New Year"
+  var name1 = "you"
+  var name2 = "everyone"
+  return(`Happy ${holiday}, ${name}!`)
+  expect(`Happy ${holiday1}, ${name1}!`).toEqual("Happy Independence Day, you!")
+  expect(`Happy ${holiday2}, ${name2}!`).toEqual("Happy New Year, everyone!")
 }
 
 function holidayCountdown(holiday, days)  {
