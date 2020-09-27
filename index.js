@@ -4,9 +4,11 @@ function happyHolidays()  {
 }
 
 function happyHolidaysTo(name)  {
-  var name = "everyone"
+  var name1 = "everyone"
+  var name2 = "you"
   return(`Happy holidays, ${name}!`)
-  expect(Happy holidays, everyone!).toEqual(Happy holidays, you!)
+  expect(`Happy holidays, ${name1}!`).toEqual("Happy holidays, everyone!")
+  expect(`Happy holidays, ${name2}!`).toEqual("Happy holidays, you!")
 }
 
 function happyCustomHolidayTo(holiday, name)  {
