@@ -22,7 +22,11 @@ function happyCustomHolidayTo(holiday, name)  {
 }
 
 function holidayCountdown(holiday, days)  {
-  var holiday = "Mother's Day"
-  var days = "20"
-  return "It's 20 days until Mother's Day!"
+  var holiday1 = "Mother's Day"
+  var holiday2 = "Father's Day"
+  var days1 = "20"
+  var days2 = "120"
+  return(`It's ${days} days until ${holiday}!`)
+  expect(`It's ${days1} days until ${holiday1}!`).toEqual("It's 20 days until Mother's Day!")
+  expect(`It's ${days2} days until ${holiday2}!`).toEqual("It's 120 days until Father's Day!")  
 }
